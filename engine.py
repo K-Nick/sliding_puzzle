@@ -73,7 +73,7 @@ class GameEngine:
             blankPos = GameEngine.getBlankPosition(board)
 
         else:
-            board = GameEngine.TARGET_BOARD
+            board = GameEngine.TARGET_BOARD.copy()
             blankPos = GameEngine.TARGET_BLANK_POS
 
             move = None
@@ -82,11 +82,14 @@ class GameEngine:
                 move = GameEngine.getRandomMove(blankPos, move)
                 board, blankPos = GameEngine.nextStatus(board, blankPos, move)
 
+        print(board)
+
         return board, blankPos
 
     @staticmethod
     def nextStatus(board, blankPos, movement):
         """模拟生成执行动作movement后的状态board, blankPos"""
+        board = board.copy()
         if GameEngine.isValidMovement(blankPos, movement):
             dx, dy = MOVEMENT_DICT[movement]
             curx, cury = blankPos

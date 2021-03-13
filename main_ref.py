@@ -1,3 +1,22 @@
+"""
+# 3109392
+3144504
+3144596
+3144595
+3144359
+# 2943359
+# 362879
+"""
+
+
+
+
+
+
+
+
+
+
 import pygame, sys, random
 from pygame.locals import *
 

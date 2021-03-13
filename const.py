@@ -33,6 +33,17 @@ MOVEMENT_DICT = {
     RIGHT: (0, 1)
 }
 
+MOVEMENT_REV_DICT = {
+    UP: DOWN,
+    DOWN: UP,
+    LEFT: RIGHT,
+    RIGHT: LEFT
+}
+
+INSTRUCTION = 'Click tile or press arrow keys to slide.'
+SOLVE_INSTRUCTION = "Automatically Solving..."
+WIN = 'You WIN!'
+
 # global but should be set by player
 BOARD_SIZE = 0
 XMARGIN = 0

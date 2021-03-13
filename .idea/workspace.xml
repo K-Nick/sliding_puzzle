@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c198daec-edf1-42f9-a599-faae246f91ef" name="Default Changelist" comment="" />
+    <list default="true" id="c198daec-edf1-42f9-a599-faae246f91ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sliding_puzzle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_puzzle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input_puzzle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_ref.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_ref.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/play_game.sh" beforeDir="false" afterPath="$PROJECT_DIR$/play_game.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +42,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="JupyterTrust" id="29d9d34b-42a6-486b-bef5-1ee2db08fd69" />
   <component name="MavenImportPreferences">
@@ -49,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -57,19 +75,43 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sliding_puzzle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="--random_step=7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sliding_puzzle" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +124,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,6 +136,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.solver" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +148,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615432543727</updated>
-      <workItem from="1615432546950" duration="23673000" />
+      <workItem from="1615432546950" duration="23988000" />
+      <workItem from="1615516286668" duration="1198000" />
+      <workItem from="1615531203013" duration="4128000" />
+      <workItem from="1615622536423" duration="20975000" />
     </task>
     <servers />
   </component>
@@ -122,77 +168,111 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="116" key="#Project_Structure" timestamp="1615433295323">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="328" y="116" key="#Project_Structure/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615433295323" />
-    <state width="1878" height="354" key="GridCell.Tab.0.bottom" timestamp="1615468834358">
+    <state x="2403" y="260" key="#xdebugger.evaluate" timestamp="1615636569243">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2403" y="260" key="#xdebugger.evaluate/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615636569243" />
+    <state width="1876" height="353" key="GridCell.Tab.0.bottom" timestamp="1615643906127">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="277" key="GridCell.Tab.0.bottom/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449309786" />
-    <state width="1878" height="354" key="GridCell.Tab.0.bottom/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834358" />
-    <state width="1878" height="354" key="GridCell.Tab.0.center" timestamp="1615468834357">
+    <state width="1876" height="353" key="GridCell.Tab.0.bottom/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906127" />
+    <state width="1876" height="353" key="GridCell.Tab.0.center" timestamp="1615643906126">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="277" key="GridCell.Tab.0.center/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449309785" />
-    <state width="1878" height="354" key="GridCell.Tab.0.center/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834357" />
-    <state width="1878" height="354" key="GridCell.Tab.0.left" timestamp="1615468834356">
+    <state width="1876" height="353" key="GridCell.Tab.0.center/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906126" />
+    <state width="1876" height="353" key="GridCell.Tab.0.left" timestamp="1615643906125">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="277" key="GridCell.Tab.0.left/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449309784" />
-    <state width="1878" height="354" key="GridCell.Tab.0.left/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834356" />
-    <state width="1878" height="354" key="GridCell.Tab.0.right" timestamp="1615468834357">
+    <state width="1876" height="353" key="GridCell.Tab.0.left/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906125" />
+    <state width="1876" height="353" key="GridCell.Tab.0.right" timestamp="1615643906126">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="277" key="GridCell.Tab.0.right/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449309785" />
-    <state width="1878" height="354" key="GridCell.Tab.0.right/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834357" />
-    <state width="1878" height="354" key="GridCell.Tab.1.bottom" timestamp="1615468834359">
+    <state width="1876" height="353" key="GridCell.Tab.0.right/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906126" />
+    <state width="1876" height="353" key="GridCell.Tab.1.bottom" timestamp="1615643906128">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="342" key="GridCell.Tab.1.bottom/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449270953" />
-    <state width="1878" height="354" key="GridCell.Tab.1.bottom/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834359" />
-    <state width="1878" height="354" key="GridCell.Tab.1.center" timestamp="1615468834358">
+    <state width="1876" height="353" key="GridCell.Tab.1.bottom/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906128" />
+    <state width="1876" height="353" key="GridCell.Tab.1.center" timestamp="1615643906127">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="342" key="GridCell.Tab.1.center/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449270953" />
-    <state width="1878" height="354" key="GridCell.Tab.1.center/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834358" />
-    <state width="1878" height="354" key="GridCell.Tab.1.left" timestamp="1615468834358">
+    <state width="1876" height="353" key="GridCell.Tab.1.center/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906127" />
+    <state width="1876" height="353" key="GridCell.Tab.1.left" timestamp="1615643906127">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="342" key="GridCell.Tab.1.left/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449270952" />
-    <state width="1878" height="354" key="GridCell.Tab.1.left/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834358" />
-    <state width="1878" height="354" key="GridCell.Tab.1.right" timestamp="1615468834359">
+    <state width="1876" height="353" key="GridCell.Tab.1.left/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906127" />
+    <state width="1876" height="353" key="GridCell.Tab.1.right" timestamp="1615643906128">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state width="1638" height="342" key="GridCell.Tab.1.right/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615449270953" />
-    <state width="1878" height="354" key="GridCell.Tab.1.right/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615468834359" />
-    <state x="1702" y="25" width="1920" height="1055" key="dock-window-1" timestamp="1615462480069">
+    <state width="1876" height="353" key="GridCell.Tab.1.right/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643906128" />
+    <state x="2185" y="285" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615634942719">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
-    <state x="1702" y="25" width="1920" height="1055" key="dock-window-1/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615462480069" />
-    <state x="505" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1615450033325">
+    <state x="2185" y="285" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615634942719" />
+    <state x="206" y="25" width="1920" height="1025" maximized="true" key="dock-window-1" timestamp="1615623025439">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
+    <state x="1702" y="25" width="1920" height="1055" key="dock-window-1/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615462480069" />
+    <state x="206" y="25" width="1920" height="1025" maximized="true" key="dock-window-1/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615623025439" />
+    <state x="2515" y="413" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1615643369169">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2515" y="413" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643369169" />
+    <state x="2257" y="259" width="766" height="696" key="search.everywhere.popup" timestamp="1615643383030">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
     <state x="505" y="252" width="670" height="676" key="search.everywhere.popup/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1615450033325" />
+    <state x="2257" y="259" width="766" height="696" key="search.everywhere.popup/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1615643383030" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main_ref.py</url>
-          <line>55</line>
+          <line>74</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solver.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="Solver.forwardMap" language="Python" />
+        <watch expression="Solver.backwardMap" language="Python" />
+        <watch expression="Solver.getHash(board)" language="Python" />
+        <watch expression="Solver.getHash(revBoard)" language="Python" />
+        <watch expression="backwardHashList" language="Python" />
+        <watch expression="forwardHashList" language="Python" />
+        <watch expression="Solver.forwardQueue" language="Python" />
+        <watch expression="MOVEMENT_REV_DICT[ops[i]]" language="Python" />
+        <watch expression="blankPos" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sliding_puzzle$main.coverage" NAME="main Coverage Results" MODIFIED="1615468808252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sliding_puzzle$main.coverage" NAME="main Coverage Results" MODIFIED="1615643791126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sliding_puzzle$solver.coverage" NAME="solver Coverage Results" MODIFIED="1615635369932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

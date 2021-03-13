@@ -1,1 +1,1 @@
-python main.py --board_size=3 --input_puzzle="input_puzzle.txt"
+python main.py --board_size=3 --random_step=20
