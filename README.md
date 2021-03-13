@@ -18,12 +18,33 @@ https://www.geeksforgeeks.org/bidirectional-search/
 https://zh.wikipedia.org/wiki/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80
 
 ## 使用说明
+
+在运行之前先安装必备python库
+
+```bash
+pip install -r requirements.txt
+```
+
+可以直接使用python调用main.py运行
+
+```bash
+python main.py \
+--board_size=3 \
+--random_step=20 \
+--input_puzzle=input_puzzle.txt
+```
+
+
+
 将命令行在文件夹根目录运行
 ```bash
 bash play_game.sh
 ```
+也可以直接使用python
+
 可以调整的参数包括
-- board_size 如果是自己玩，可以任意设置3-10任意尺寸，如果需要调用solve，建议设置为<=5的数，否则运算量为超出极限
+
+- board_size 如果是自己玩，可以任意设置3-10任意尺寸，如果需要调用solve，建议设置为<=5的数，否则运算量超出极限
 - random_step 打乱的步数，默认为20，可以不用动这个参数
 - input_puzzle 如需输入给定的初始局面，在对应txt文件中按照input_puzzle.txt格式输入即可
 
